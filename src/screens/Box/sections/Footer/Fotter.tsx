@@ -1,7 +1,7 @@
 import { FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react";
 import React from "react";
 
-export const MainContentSection = (): JSX.Element => {
+export const Footer = (): JSX.Element => {
   // Company links data
   const companyLinks = [
     { title: "About", href: "#" },

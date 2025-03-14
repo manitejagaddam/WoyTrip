@@ -272,7 +272,7 @@ const featureIcons = [
   { id: 4, name: "Sightseeing", iconIndex: 15 },
 ];
 
-export const FooterSection = (): JSX.Element => {
+export const PopularDestination = (): JSX.Element => {
   return (
     <section className="w-full py-8">
       <div className="container mx-auto">

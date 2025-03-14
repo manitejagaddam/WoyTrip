@@ -1,6 +1,6 @@
 import React from "react";
 
-export const WhyChooseUsSection = (): JSX.Element => {
+export const AllTripHeading = (): JSX.Element => {
   return (
     <section className="w-full py-8">
       <div className="relative w-full max-w-[1225px] mx-auto">

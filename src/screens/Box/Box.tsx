@@ -12,33 +12,20 @@ import { Footer } from "./sections/Footer/Fotter";
 export const Box = (): JSX.Element => {
   return (
     <div className="w-full">
-      <div className="relative w-full">
+      <Navbar />
 
-        <Navbar />
+      <HeroSection />
 
-        <div className="flex flex-row w-full">
-          <HeroSection />
+      <PopularDestination />
 
-        </div>
-        <PopularDestination />
+      <WhyChooseUs />
 
+      <AllTripHeading />
+      <DestinationCardsSection />
 
-        <div className="w-full relative">
-          <div className="w-full flex justify-between">
-            
-            <WhyChooseUs />
-          </div>
-          
-        </div>
-        <div className="w-full relative">
-          <AllTripHeading />
-          <DestinationCardsSection />
-        </div>
-        <NewsletterSection />
+      <NewsletterSection />
 
-        <Footer />
-        {/* Main Content Section */}
-      </div>
+      <Footer />
     </div>
   );
 };

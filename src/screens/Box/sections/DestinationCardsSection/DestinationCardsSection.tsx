@@ -6,7 +6,7 @@ import { Separator } from "../../../../components/ui/separator";
 
 export const DestinationCardsSection = (): JSX.Element => {
   // Data for destination cards
-  const destinationCards = Array(9).fill({
+  const destinationCards = Array(8).fill({
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
     backgroundImage: "public/rectangle-14-12.png",
@@ -29,7 +29,7 @@ export const DestinationCardsSection = (): JSX.Element => {
               style={{ backgroundImage: `url(${card.backgroundImage})` }}
             >
               {/* Card overlay at bottom */}
-              <Card className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[395px] rounded-2xl overflow-hidden">
+              <Card className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[395px] rounded-2xl overflow-hidden bg-white  rounded-t-3xl rounded-b-none">
                 <CardContent className="p-0">
                   {/* Card header */}
                   <div className="p-3 flex items-start">

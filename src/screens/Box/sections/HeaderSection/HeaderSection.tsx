@@ -10,7 +10,7 @@ export const HeaderSection = (): JSX.Element => {
   ];
 
   return (
-    <header className="w-full py-5 bg-transparent">
+    <header className="w-full py-5 bg-[#7DD2FF]/45">
       <div className="container flex items-center justify-between">
         {/* Logo Section */}
         <div className="relative w-[198.36px] h-[70.42px]">

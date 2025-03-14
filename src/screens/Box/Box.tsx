@@ -37,37 +37,15 @@ export const Box = (): JSX.Element => {
           <img className="absolute" alt="Vector" src="public/vector-107.svg" />
           <img className="absolute" alt="Vector" src="public/vector-105.svg" />
         </div>
-        <DestinationCardsSection />
-        <NewsletterSection />
         <div className="w-full relative">
-          <div className="flex">
-            <div className="relative">
-              {/* Circular image container */}
-              <div className="relative">
-                <div className="bg-primary-50 rounded-full shadow-[0px_20px_32px_#b7e9f6a3,0px_2px_8px_#b7e9f6]"></div>
-                <img
-                  className="absolute"
-                  alt="Mask group"
-                  src="public/mask-group-1.png"
-                />
-                <img
-                  className="absolute"
-                  alt="Mask group"
-                  src="public/mask-group-2.png"
-                />
-                <img
-                  className="absolute"
-                  alt="Mask group"
-                  src="public/mask-group-3.png"
-                />
-              </div>
-            </div>
+          <div className="w-full flex justify-between">
+            
             <FeaturedDestinationsSection />
           </div>
-          <img className="absolute" alt="Vector" src="public/vector-103.svg" />
-          <img className="absolute" alt="Vector" src="public/vector-104.svg" />
-          <img className="absolute" alt="Vector" src="public/vector-102.svg" />
+          
         </div>
+        <DestinationCardsSection />
+        <NewsletterSection />
 
         <MainContentSection />
         {/* Main Content Section */}

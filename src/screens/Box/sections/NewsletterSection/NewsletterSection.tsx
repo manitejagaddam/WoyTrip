@@ -14,15 +14,15 @@ export const NewsletterSection = (): JSX.Element => {
   };
 
   return (
-    <section className="w-full py-16 px-4">
-      <Card className="w-full max-w-5xl mx-auto relative overflow-visible">
-        <CardContent className="p-0">
-          <div className="relative w-full">
+    <section className="w-full py-16 px-4 border-none ">
+      <Card className="w-full max-w-5xl mx-auto relative overflow-visible border-none">
+        <CardContent className="p-0 border-none">
+          <div className="relative w-full border-none">
             {/* Background shape with gradient */}
-            <div className="w-full h-[407px] bg-[#3ca7ff75] rounded-[20px_129px_20px_129px] rotate-180 opacity-20 absolute -z-10" />
+            <div className="w-full h-[407px] bg-[#3ca7ff75] rounded-[20px_129px_20px_129px] rotate-180 opacity-20 absolute -z-10 border-none" />
 
             {/* Content container */}
-            <div className="flex flex-col items-center justify-center py-16 px-4 relative z-10">
+            <div className="flex bg-transparent border-none  rounded-[20px_129px_20px_129px] w-full h-[407px] flex-col items-center justify-center py-16 px-4 relative z-10">
               {/* Heading */}
               <h2 className="font-['Poppins',Helvetica] font-semibold text-text-clr text-[33px] text-center tracking-[0] leading-[54px] mb-12">
                 {newsletterData.title} <br />
@@ -30,7 +30,7 @@ export const NewsletterSection = (): JSX.Element => {
               </h2>
 
               {/* Form */}
-              <div className="flex flex-col sm:flex-row gap-4 w-full max-w-xl">
+              <div className="flex flex-col sm:flex-row gap-4 w-full max-w-xl rounded-[20px_129px_20px_129px] w-full h-[407px]">
                 <div className="relative flex-grow">
                   <Input
                     className="h-[68px] pl-14 text-text-color font-['Montserrat',Helvetica] rounded-[10px]"
@@ -48,62 +48,7 @@ export const NewsletterSection = (): JSX.Element => {
             </div>
 
             {/* Decorative element */}
-            <div className="hidden md:block absolute -top-8 -right-8 w-[103px] h-[103px] rounded-[51.5px] [background:linear-gradient(180deg,rgb(217.81,238.23,255)_0%,rgb(0,140,255)_100%)]">
-              <div className="relative w-[83px] h-[42px] top-[31px] left-[9px] rotate-[-28.33deg]">
-                <div className="relative w-[78px] h-[59px] top-[-5px] left-0.5">
-                  <img
-                    className="absolute w-2 h-1.5 top-[34px] left-[33px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-27.svg"
-                  />
-                  <img
-                    className="absolute w-1.5 h-1 top-5 left-[43px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-27.svg"
-                  />
-                  <img
-                    className="absolute w-5 h-[15px] top-3.5 left-[35px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-71.svg"
-                  />
-                  <img
-                    className="absolute w-[70px] h-[29px] top-[15px] left-[5px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-61.svg"
-                  />
-                  <img
-                    className="absolute w-[46px] h-[25px] top-6 left-2.5 rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-57.svg"
-                  />
-                  <img
-                    className="absolute w-4 h-3.5 top-1.5 left-[3px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-38.svg"
-                  />
-                  <img
-                    className="absolute w-[13px] h-[7px] top-[18px] left-px rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-33.svg"
-                  />
-                  <img
-                    className="absolute w-[7px] h-1 top-8 left-[67px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-34.svg"
-                  />
-                  <img
-                    className="absolute w-[5px] h-1.5 top-[31px] left-[59px] rotate-[28.33deg]"
-                    alt="Vector"
-                    src="public/vector-35.svg"
-                  />
-                  <img
-                    className="absolute w-[35px] h-[31px] top-[13px] left-6 rotate-[28.33deg]"
-                    alt="Group"
-                    src="public/group-55.png"
-                  />
-                </div>
-              </div>
-            </div>
+            
           </div>
         </CardContent>
       </Card>

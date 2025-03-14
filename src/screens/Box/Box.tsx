@@ -1,14 +1,13 @@
 import React from "react";
-import { DestinationCardsSection } from "./sections/DestinationCardsSection/DestinationCardsSection";
-import { FeaturedDestinationsSection, WhyChooseUs } from "./sections/WhyChoosenUs";
-// import { FooterSection } from "./sections/PopularDestination";
+
 import { Navbar } from "./sections/Navbar";
 import { HeroSection } from "./sections/HeroSection/HeroSection";
-import { ImageOverlaySection } from "./sections/ImageOverlaySection";
-import { Footer, MainContentSection } from "./sections/Footer/Fotter";
-import { NewsletterSection } from "./sections/NewsletterSection";
-import { AllTripHeading, WhyChooseUsSection } from "./sections/AllTripHeading/AllTripHeading";
 import { PopularDestination } from "./sections/PopularDestination/PopularDestination";
+import { WhyChooseUs } from "./sections/WhyChoosenUs";
+import { AllTripHeading } from "./sections/AllTripHeading/AllTripHeading";
+import { DestinationCardsSection } from "./sections/DestinationCardsSection/DestinationCardsSection";
+import { NewsletterSection } from "./sections/NewsletterSection";
+import { Footer } from "./sections/Footer/Fotter";
 
 export const Box = (): JSX.Element => {
   return (

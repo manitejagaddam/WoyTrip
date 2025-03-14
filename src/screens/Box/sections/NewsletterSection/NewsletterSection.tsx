@@ -16,6 +16,7 @@ export const NewsletterSection = (): JSX.Element => {
   return (
     <section className="w-full py-16 px-4 border-none ">
       <Card className="w-full max-w-5xl mx-auto relative overflow-visible border-none">
+      <img src="public/images/choosen_us_areoplane.png" className="absolute -top-6 right-0" alt="" />
         <CardContent className="p-0 border-none">
           <div className="relative w-full border-none">
             {/* Background shape with gradient */}

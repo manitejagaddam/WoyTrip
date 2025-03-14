@@ -12,9 +12,9 @@ export const DestinationCardsSection = (): JSX.Element => {
     backgroundImage: "public/images/benTower.png",
     features: [
       { name: "Video", icon: "public/images/vedio_icon.png" },
-      { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-      { name: "Stay", icon: "public/images/stay.png" },
-      { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+      { name: "Meals", icon: "public/game-icons-meal.svg" },
+      { name: "Stay", icon: "public/group-22.png" },
+      { name: "Sightseeing", icon: "public/group-23.png" },
     ],
   });
 

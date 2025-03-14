@@ -105,7 +105,7 @@ export const WhyChooseUs = (): JSX.Element => {
       id: 1,
       title: "24/7 Doctor Support",
       description: "Instant medical help for minor health issues.",
-      icon: "public/twemoji-hospital.svg",
+      icon: "public/images/twemoji-hospital.svg",
       isHighlighted: false,
     },
     {
@@ -113,21 +113,21 @@ export const WhyChooseUs = (): JSX.Element => {
       title: "Trip Video",
       description: "Capture memories with a short trip highlight video.",
       isHighlighted: true,
-      icon: "public/group-48.png",
+      icon: "public/images/areoplane.png",
     },
     {
       id: 3,
       title: "Best Stay Options",
       description: "Handpicked stays for easy exploration.",
       isHighlighted: false,
-      icon: "public/group-50.png",
+      icon: "public/images/hotel.png",
     },
     {
       id: 4,
       title: "Affordable Prices",
       description: "Premium trips at budget-friendly rates.",
       isHighlighted: false,
-      icon: "public/group-53.png",
+      icon: "public/images/luggage.png",
     },
   ];
 

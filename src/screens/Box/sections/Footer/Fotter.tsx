@@ -39,9 +39,9 @@ export const Footer = (): JSX.Element => {
             <div className="w-[189px] h-[135px] mx-auto md:mx-0">
               {/* Logo image */}
               <img
-                className="w-[189px] h-[113px]"
+                className=""
                 alt="WayTrav Logo"
-                src="public/group-81.png"
+                src="public/images/footer_logo.png"
               />
             </div>
           </div>

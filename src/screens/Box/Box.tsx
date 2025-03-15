@@ -86,7 +86,10 @@ export const Box = (): JSX.Element => {
         <NewsletterSection />
 
         {/* Main Content Section */}
+        <div className="m-24">
         <Footer />
+
+        </div>
       </div>
     </div>
   );

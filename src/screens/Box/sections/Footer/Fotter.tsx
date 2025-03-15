@@ -1,5 +1,8 @@
+
+
 import { FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react";
 import React from "react";
+import { motion } from "framer-motion";
 
 export const Footer = (): JSX.Element => {
   // Company links data
@@ -19,7 +22,7 @@ export const Footer = (): JSX.Element => {
   // More links data
   const moreLinks = [
     { title: "Airlinefees", href: "#" },
-    { title: "Airline", href: "#" },  
+    { title: "Airline", href: "#" },
     { title: "Low fare tips", href: "#" },
   ];
 
@@ -31,26 +34,26 @@ export const Footer = (): JSX.Element => {
   ];
 
   return (
-    <footer className="w-full py-16 px-6">
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-between">
+    <footer className="w-full py-16 px-6 bg-gray-50">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between items-center gap-8">
         {/* Logo section */}
-        <div className="w-full md:w-1/4 mb-8 md:mb-0">
-          <div className="relative h-[257px]">
+        <div className="w-full md:w-1/4 flex justify-center md:justify-start">
+          <div className="relative h-[257px] flex items-center">
             <div className="w-[189px] h-[135px] mx-auto md:mx-0">
               {/* Logo image */}
-              <img
-                className=""
-                alt="WayTrav Logo"
+              <motion.img
                 src="public/images/footer_logo.png"
+                alt="WayTrav Logo"
+                className="object-contain transition-transform duration-300 hover:scale-105"
               />
             </div>
           </div>
         </div>
 
         {/* Links section */}
-        <div className="w-full md:w-2/4 flex flex-wrap justify-between mb-8 md:mb-0">
+        <div className="w-full md:w-2/4 flex flex-col sm:flex-row justify-between gap-8">
           {/* Company links */}
-          <div className="w-full sm:w-1/3 mb-6 sm:mb-0">
+          <div className="w-full sm:w-1/3">
             <h3 className="font-bold text-black text-[21px] leading-[26.1px] mb-8">
               Company
             </h3>
@@ -59,7 +62,7 @@ export const Footer = (): JSX.Element => {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="font-medium text-text-clr text-lg leading-[22.4px]"
+                    className="font-medium text-text-clr text-lg leading-[22.4px] hover:text-blue-500 transition-colors"
                   >
                     {link.title}
                   </a>
@@ -69,7 +72,7 @@ export const Footer = (): JSX.Element => {
           </div>
 
           {/* Contact links */}
-          <div className="w-full sm:w-1/3 mb-6 sm:mb-0">
+          <div className="w-full sm:w-1/3">
             <h3 className="font-bold text-black text-[21px] leading-[26.1px] mb-8">
               Contact
             </h3>
@@ -78,7 +81,7 @@ export const Footer = (): JSX.Element => {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="font-medium text-text-clr text-lg leading-[22.4px]"
+                    className="font-medium text-text-clr text-lg leading-[22.4px] hover:text-blue-500 transition-colors"
                   >
                     {link.title}
                   </a>
@@ -97,7 +100,7 @@ export const Footer = (): JSX.Element => {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="font-medium text-text-clr text-lg leading-[22.4px]"
+                    className="font-medium text-text-clr text-lg leading-[22.4px] hover:text-blue-500 transition-colors"
                   >
                     {link.title}
                   </a>
@@ -109,12 +112,12 @@ export const Footer = (): JSX.Element => {
 
         {/* Social media section */}
         <div className="w-full md:w-1/4 flex justify-center md:justify-end">
-          <div className="flex items-center gap-9">
+          <div className="flex items-center gap-4 sm:gap-9">
             {socialMedia.map((social, index) => (
               <a
                 key={index}
                 href={social.href}
-                className="w-[72px] h-[72px] flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                className="w-12 h-12 sm:w-[72px] sm:h-[72px] flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
               >
                 {social.icon}
               </a>

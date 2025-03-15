@@ -4,9 +4,7 @@ import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
-import { motion } from "framer-motion"; // Import Framer Motion for animations
-
-import destinationImage from "public/images/benTower.png";
+import { motion } from "framer-motion";
 
 
 
@@ -15,7 +13,8 @@ export const DestinationCardsSection = (): JSX.Element => {
   const destinationCards = Array(8).fill({
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
-    backgroundImage: {destinationImage},
+    // backgroundImage: {destinationImage  },
+    backgroundImage: "public/images/collousium.png",
     features: [
       { name: "Video", icon: "public/images/vedio_icon.png" },
       { name: "Meals", icon: "public/images/game-icons-meal.svg" },

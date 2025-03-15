@@ -76,12 +76,10 @@ export const Box = (): JSX.Element => {
         {/* Why Choose Us Section */}
         <div className="w-full relative px-4 md:px-8 lg:px-16">
           <WhyChooseUs />
-          <img className="absolute hidden lg:block" alt="Vector" src="public/vector-107.svg" />
-          <img className="absolute hidden lg:block" alt="Vector" src="public/vector-105.svg" />
         </div>
 
         {/* Destination Cards Section */}
-        <AllTripHeading />
+
         <DestinationCardsSection />
 
         {/* Newsletter Section */}

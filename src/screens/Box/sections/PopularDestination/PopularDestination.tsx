@@ -52,16 +52,16 @@ export const PopularDestination = (): JSX.Element => {
     <section className="w-full py-8">
       <div className="container mx-auto">
         {/* Section Header */}
-        <div className="flex flex-col mb-8 relative">
+        <div className="flex flex-col items-center mb-8 relative">
           <div className="flex items-center justify-between">
             <h2 className="font-['Lato',Helvetica] font-bold text-[#333333] text-[49.7px] tracking-[-0.50px] leading-[69.6px]">
               Popular Destinations
             </h2>
-            <img
+            {/* <img
               className="w-[136px] h-[69px]"
               alt="Vector"
               src="public/vector-101.svg"
-            />
+            /> */}
           </div>
           <p className="opacity-80 font-text-md-regular font-[number:var(--text-md-regular-font-weight)] text-[#333333] text-[length:var(--text-md-regular-font-size)] tracking-[var(--text-md-regular-letter-spacing)] leading-[var(--text-md-regular-line-height)]">
             Vacations to make your experience enjoyable in Indonesia!

@@ -4,7 +4,7 @@ export const AllTripHeading = (): JSX.Element => {
   return (
     <section className="w-full py-8">
       <div className="relative w-full max-w-[1225px] mx-auto flex">
-        <img src="public/images/left_Areoplane.png" alt="" />
+        {/* <img src="public/images/left_Areoplane.png" alt="" /> */}
         <div className="flex flex-col items-center justify-center text-center">
           <h2 className="font-['Lato',Helvetica] font-bold text-[#333333] text-[67.6px] tracking-[-0.68px] leading-[94.7px]">
             Our Destinations
@@ -15,7 +15,7 @@ export const AllTripHeading = (): JSX.Element => {
         </div>
 
         {/* Left airplane decoration */}
-        <img src="public\images\right_areoplane.png" alt="" />
+        {/* <img src="public\images\right_areoplane.png" alt="" /> */}
         
       </div>
     </section>

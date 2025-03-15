@@ -19,7 +19,7 @@ export const Footer = (): JSX.Element => {
   // More links data
   const moreLinks = [
     { title: "Airlinefees", href: "#" },
-    { title: "Airline", href: "#" },
+    { title: "Airline", href: "#" },  
     { title: "Low fare tips", href: "#" },
   ];
 

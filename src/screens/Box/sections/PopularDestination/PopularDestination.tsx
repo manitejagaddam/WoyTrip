@@ -355,7 +355,7 @@ const destinations = [
 
 export const PopularDestination = (): JSX.Element => {
   return (
-    <section className="py-12 w-full items-center bg-gray-50 flex flex-col">
+    <section className="py-12 w-full scale-90 items-center bg-gray-50 flex flex-col">
       {/* Title Section */}
       <div className="text-center">
         <h2 className="font-bold text-[#333333] text-[50px] sm:text-[67.6px] leading-tight">
@@ -382,7 +382,7 @@ export const PopularDestination = (): JSX.Element => {
             <div className="relative rounded-lg shadow-lg items-center overflow-hidden w-[320px]">
               {/* Background Image */}
               <div
-                className="w-full h-[450px] bg-cover bg-center"
+                className="w-full h-[450px] bg-cover bg-center rounded-b-2xl "
                 style={{ backgroundImage: `url(${card.image})` }}
               >
                 {/* Card Overlay */}

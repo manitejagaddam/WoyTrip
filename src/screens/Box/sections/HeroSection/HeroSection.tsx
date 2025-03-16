@@ -41,7 +41,7 @@ export const HeroSection = (): JSX.Element => {
         {/* Right Image */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
-            className="w-[300px] md:w-[400px] lg:w-[500px] object-cover"
+            className="w-[300px] md:w-[400px] lg:w-[500px] object-cover scale-150"
             src={hero}
             alt="Main travel illustration"
           />

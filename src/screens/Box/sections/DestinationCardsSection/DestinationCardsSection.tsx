@@ -57,7 +57,7 @@ export const DestinationCardsSection = (): JSX.Element => {
                   <div className="relative rounded-lg shadow-lg items-center overflow-hidden w-[320px]">
                     {/* Background Image */}
                     <div
-                      className="w-full h-[450px] bg-cover bg-center"
+                      className="w-full h-[450px] bg-cover bg-center rounded-b-2xl"
                       style={{ backgroundImage: `url(${card.backgroundImage})` }}
                     >
                       {/* Card Overlay */}

@@ -1,6 +1,7 @@
-
 import React from "react";
 import { Button } from "../../../../components/ui/button";
+
+import hero from "../../../../assets/images/1.png"
 
 export const HeroSection = (): JSX.Element => {
   return (
@@ -41,7 +42,7 @@ export const HeroSection = (): JSX.Element => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
             className="w-[300px] md:w-[400px] lg:w-[500px] object-cover"
-            src="public/images/1.png"
+            src={hero}
             alt="Main travel illustration"
           />
         </div>

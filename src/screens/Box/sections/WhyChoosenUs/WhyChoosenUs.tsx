@@ -1,13 +1,19 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
+import hosplital from "../../../../assets/images/twemoji-hospital.svg";
+import areoplane from "../../../../assets/images/areoplane.png";
+import hotel from "../../../../assets/images/hotel.png";
+import luggage from "../../../../assets/images/luggage.png";
+import logo from "../../../../assets/images/why_choosen.png"
+
 export const WhyChooseUs = (): JSX.Element => {
   const features = [
     {
       id: 1,
       title: "24/7 Doctor Support",
       description: "Instant medical help for minor health issues.",
-      icon: "public/images/twemoji-hospital.svg",
+      icon: hosplital,
       isHighlighted: false,
     },
     {
@@ -15,21 +21,21 @@ export const WhyChooseUs = (): JSX.Element => {
       title: "Trip Video",
       description: "Capture memories with a short trip highlight video.",
       isHighlighted: true,
-      icon: "public/images/areoplane.png",
+      icon: areoplane,
     },
     {
       id: 3,
       title: "Best Stay Options",
       description: "Handpicked stays for easy exploration.",
       isHighlighted: false,
-      icon: "public/images/hotel.png",
+      icon: hotel,
     },
     {
       id: 4,
       title: "Affordable Prices",
       description: "Premium trips at budget-friendly rates.",
       isHighlighted: false,
-      icon: "public/images/luggage.png",
+      icon: luggage,
     },
   ];
 
@@ -39,7 +45,7 @@ export const WhyChooseUs = (): JSX.Element => {
         
         {/* Left Section */}
         <div className="">
-          <img src="public/images/why_choosen.png" alt="Why Choose Us" className="w-full" />
+          <img src={logo} alt="Why Choose Us" className="w-full" />
         </div>
 
         {/* Right Section */}

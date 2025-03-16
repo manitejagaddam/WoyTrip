@@ -6,6 +6,12 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
 import { motion } from "framer-motion";
 
+import collousium from "../../../../assets/images/collousium.png";
+import vedio_icon from "../../../../assets/images/vedio_icon.png";
+import game from "../../../../assets/images/game-icons-meal.svg";
+import stay from "../../../../assets/images/stay.png";
+import sightseeing from "../../../../assets/images/sighseeing.png";
+
 
 
 export const DestinationCardsSection = (): JSX.Element => {
@@ -14,12 +20,12 @@ export const DestinationCardsSection = (): JSX.Element => {
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
     // backgroundImage: {destinationImage  },
-    backgroundImage: "public/images/collousium.png",
+    backgroundImage: collousium,
     features: [
-      { name: "Video", icon: "public/images/vedio_icon.png" },
-      { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-      { name: "Stay", icon: "public/images/stay.png" },
-      { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+      { name: "Video", icon: vedio_icon },
+      { name: "Meals", icon: game },
+      { name: "Stay", icon: stay },
+      { name: "Sightseeing", icon: sightseeing },
     ],
   });
 

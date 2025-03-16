@@ -65,7 +65,8 @@ import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Input } from "../../../../components/ui/input";
-import { motion } from "framer-motion"; // Import Framer Motion for animations
+import { motion } from "framer-motion"; 
+import areoplane from "../../../../assets/images/choosen_us_areoplane.png"
 
 export const NewsletterSection = (): JSX.Element => {
   // Newsletter data
@@ -87,7 +88,7 @@ export const NewsletterSection = (): JSX.Element => {
       <Card className="w-full max-w-5xl mx-auto relative overflow-visible border-none shadow-lg">
         {/* Decorative Airplane Image */}
         <motion.img
-          src="public/images/choosen_us_areoplane.png"
+          src={areoplane}
           className="absolute -top-6 right-0 w-16 sm:w-20 md:w-24"
           alt="Airplane"
           initial={{ opacity: 0, scale: 0.8 }}

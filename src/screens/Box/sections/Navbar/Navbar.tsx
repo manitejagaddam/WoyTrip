@@ -3,6 +3,8 @@ import { Button } from "../../../../components/ui/button";
 import { Menu, X } from "lucide-react"; // Icons for hamburger
 import { motion, AnimatePresence } from "framer-motion"; // For animations
 
+import logo from "../../../../assets/images/logo.png"
+
 export const Navbar = (): JSX.Element => {
   // State to handle menu visibility
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +20,7 @@ export const Navbar = (): JSX.Element => {
     <header className="w-full py-5 bg-[#7DD2FF]/45 shadow-md">
       <div className="container mx-auto flex items-center justify-between px-6">
         {/* Logo Section */}
-        <img src="public/images/logo.png" alt="Logo" className="h-12 w-auto" />
+        <img src={logo} alt="Logo" className="h-12 w-auto" />
 
         {/* Desktop Navigation (Hidden on Mobile) */}
         <nav className="hidden md:flex items-center gap-10">

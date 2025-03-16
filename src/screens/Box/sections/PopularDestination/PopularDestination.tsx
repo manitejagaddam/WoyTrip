@@ -8,41 +8,41 @@
 // const destinations = [
 //   {
 //     id: 1,
-//     image: "public/images/collousium.png",
+//     image: collousium,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-1.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],
 //   },
 //   {
 //     id: 2,
-//     image: "public/images/collousium.png",
+//     image: collousium,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-2.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],
 //   },
 //   {
 //     id: 3,
-//     image: "public/images/benTower.png",
+//     image: bentower,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-3.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],    
 //   },
 // ];
@@ -161,41 +161,41 @@
 // const destinations = [
 //   {
 //     id: 1,
-//     image: "public/images/collousium.png",
+//     image: collousium,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-1.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],
 //   },
 //   {
 //     id: 2,
-//     image: "public/images/collousium.png",
+//     image: collousium,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-2.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],
 //   },
 //   {
 //     id: 3,
-//     image: "public/images/benTower.png",
+//     image: bentower,
 //     title: "Kerala Tour",
 //     location: "Munnar | Houseboat",
 //     navigationIcon: "public/navigation-3.png",
 //     features: [
-//       { name: "Video", icon: "public/images/vedio_icon.png" },
-//       { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-//       { name: "Stay", icon: "public/images/stay.png" },
-//       { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+//       { name: "Video", icon: vedio_icon },
+//       { name: "Meals", icon: game },
+//       { name: "Stay", icon: stay },
+//       { name: "Sightseeing", icon: sightseeing },
 //     ],    
 //   },
 // ];
@@ -294,41 +294,61 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
 import { MapPinIcon } from "lucide-react";
 
+import collousium from "../../../../assets/images/collousium.png";
+import bentower from "../../../../assets/images/benTower.png";
+import vedio_icon from "../../../../assets/images/vedio_icon.png";
+import game from "../../../../assets/images/game-icons-meal.svg";
+import stay from "../../../../assets/images/stay.png";
+import sightseeing from "../../../../assets/images/sighseeing.png";
+
+
 const destinations = [
   {
     id: 1,
-    image: "public/images/collousium.png",
+    image: bentower,
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
     features: [
-      { name: "Video", icon: "public/images/vedio_icon.png" },
-      { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-      { name: "Stay", icon: "public/images/stay.png" },
-      { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+      { name: "Video", icon: vedio_icon },
+      { name: "Meals", icon: game },
+      { name: "Stay", icon: stay },
+      { name: "Sightseeing", icon: sightseeing },
     ],
   },
   {
     id: 2,
-    image: "public/images/collousium.png",
+    image: collousium,
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
     features: [
-      { name: "Video", icon: "public/images/vedio_icon.png" },
-      { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-      { name: "Stay", icon: "public/images/stay.png" },
-      { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+      { name: "Video", icon: vedio_icon },
+      { name: "Meals", icon: game },
+      { name: "Stay", icon: stay },
+      { name: "Sightseeing", icon: sightseeing },
     ],
   },
   {
     id: 3,
-    image: "public/images/benTower.png",
+    image: bentower,
     title: "Kerala Tour",
     location: "Munnar | Houseboat",
     features: [
-      { name: "Video", icon: "public/images/vedio_icon.png" },
-      { name: "Meals", icon: "public/images/game-icons-meal.svg" },
-      { name: "Stay", icon: "public/images/stay.png" },
-      { name: "Sightseeing", icon: "public/images/sighseeing.png" },
+      { name: "Video", icon: vedio_icon },
+      { name: "Meals", icon: game },
+      { name: "Stay", icon: stay },
+      { name: "Sightseeing", icon: sightseeing },
+    ],
+  },
+  {
+    id: 4,
+    image: collousium,
+    title: "Kerala Tour",
+    location: "Munnar | Houseboat",
+    features: [
+      { name: "Video", icon: vedio_icon },
+      { name: "Meals", icon: game },
+      { name: "Stay", icon: stay },
+      { name: "Sightseeing", icon: sightseeing },
     ],
   },
 ];

@@ -3,6 +3,7 @@
 import { FacebookIcon, InstagramIcon, TwitterIcon } from "lucide-react";
 import React from "react";
 import { motion } from "framer-motion";
+import fotter_logo from "../../../../assets/images/footer_logo.png"
 
 export const Footer = (): JSX.Element => {
   // Company links data
@@ -42,7 +43,7 @@ export const Footer = (): JSX.Element => {
             <div className="w-[189px] h-[135px] mx-auto md:mx-0">
               {/* Logo image */}
               <motion.img
-                src="public/images/footer_logo.png"
+                src={fotter_logo}
                 alt="WayTrav Logo"
                 className="object-contain transition-transform duration-300 hover:scale-105"
               />

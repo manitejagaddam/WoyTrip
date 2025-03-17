@@ -368,7 +368,7 @@ export const PopularDestination = (): JSX.Element => {
 
       {/* Cards Grid */}
       <motion.div
-        className="flex flex-wrap justify-center gap-8 px-6 mt-10"
+        className="flex flex-wrap justify-center scale-90 gap-8 px-6 mt-10"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -379,7 +379,7 @@ export const PopularDestination = (): JSX.Element => {
       >
         {destinations.map((card, index) => (
           <motion.div key={index} variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-            <div className="relative rounded-lg shadow-lg items-center overflow-hidden w-[320px]">
+            <div className="relative rounded-lg shadow-lg scale-90 md:scale-75 items-center overflow-hidden w-[320px]">
               {/* Background Image */}
               <div
                 className="w-full h-[450px] bg-cover bg-center rounded-b-2xl "

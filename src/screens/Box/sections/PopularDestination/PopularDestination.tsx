@@ -670,7 +670,7 @@ const destinations = [
       { name: "Stay", icon: stay },
       { name: "Sightseeing", icon: sightseeing },
       { name: "Travelling", icon: car },
-      { name: "Hospital", icon: medical_bag },
+      { name: "h", icon: medical_bag },
     ],
   },
   {
@@ -767,9 +767,9 @@ export const PopularDestination = (): JSX.Element => {
                         const iconSize =
                           card.features.length === 4
                             ? "w-12 h-12"
-                            : "w-8 h-8";
+                            : "w-7 h-7";
                         const textSize =
-                          card.features.length === 4
+                          card.features.length === 6
                             ? "text-sm"
                             : "text-xs";
                         return (
